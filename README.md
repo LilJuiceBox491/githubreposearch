@@ -30,7 +30,7 @@ import { getRepos } from 'githubreposearch';
 getRepos({
   username: 'LilJuiceBox491', // provide GitHub username here
   page: 1, // optional property: default value is 1
-  per_page: 50 // optional property: default value is 30
+  per_page: 50 // optional property: default value is 50
 }).then((repositories) => console.log(repositories));
 ```
 
@@ -41,7 +41,7 @@ const getRepositories = async function () {
   const repositories = await getRepos({
     username: 'LilJuiceBox491', // provide GitHub username here
     page: 1, // optional property: default value is 1
-    per_page: 50 // optional property: default value is 30
+    per_page: 50 // optional property: default value is 50
   });
   console.log(repositories);
 };
