@@ -5,20 +5,20 @@ Get a list of Github repositories of specified username sorted by numbers of sta
 ## Installation
 
 ```js
-// using npm
+// Using NPM
 npm install githubreposearch
 
-// using yarn
+// Using Yarn
 yarn add githubreposearch
 ```
 
 ## Usage
 
 ```js
-// using require
+// Using Require
 const { getRepos } = require('githubreposearch');
 
-// using import
+// Using Import
 import { getRepos } from 'githubreposearch';
 ```
 
