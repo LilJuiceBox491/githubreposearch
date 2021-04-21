@@ -1,0 +1,27 @@
+{
+  "name": "githubreposearch",
+  "version": "1.0.0",
+  "description": "A module to search a users GitHub repository list.",
+  "main": "index.js",
+  "homepage": "https://github.com/LilJuiceBox491/githubreposearch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LilJuiceBox491/githubreposearch.git"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "repos",
+    "repositories",
+    "sort",
+    "stars"
+  ],
+  "author": "LilJuiceBox491",
+  "license": "ISC"
+}
